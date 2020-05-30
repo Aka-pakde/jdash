@@ -102,7 +102,7 @@ else:
 
 
 logo2 = '''
-Coded by " Pakde "
+Coded by Pakde
 
 \t   |  |-------    __     _____  
 \t   |  |       |  /  \   |       |   \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
@@ -152,7 +152,7 @@ while True:
 		print '\t Name   : Pakde'
 		print '\t Country: Indonesia'
 		print '\t Channel: Pak de'
-		print '\t Link   : https://www.youtube.com/channel/UC3vJ9t4Lg60YTVs1pteVGGQ
+		print '\t Link   : https://www.youtube.com/channel/UC3vJ9t4Lg60YTVs1pteVGGQ'
 		print '\t'
 
 	 elif coder[0] == "-h":
